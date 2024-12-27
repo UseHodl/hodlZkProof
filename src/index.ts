@@ -14,7 +14,7 @@ const curve = new EC("secp256k1");
 /**
  * Type definition for ZKProof.
  */
-type ZKProof = {
+export type ZKProof = {
   commitment: string;
   proof: string;
   publicSignal: string;

@@ -7,7 +7,7 @@
 /**
  * Type definition for ZKProof.
  */
-type ZKProof = {
+export type ZKProof = {
     commitment: string;
     proof: string;
     publicSignal: string;
@@ -53,4 +53,3 @@ export declare function generateProof(txHash: string, userId: string, secret: st
  * }
  */
 export declare function verifyProof(proof: ZKProof, txHash: string, expectedUserId: string): boolean;
-export {};
