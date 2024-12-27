@@ -1,0 +1,27 @@
+{
+  "name": "hodlzkproof",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "crypto-js": "^4.2.0",
+    "elliptic": "^6.6.1",
+    "hodlzkproof": "file:"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/elliptic": "^6.4.18",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
